@@ -27,7 +27,7 @@ public class Calculator {
             System.out.println("unknown action");
         }
     }
-    public static double divide(double a, double b) throws Exception {
+    public static Double divide(double a, double b) throws Exception {
 
         if (b==0) {
             throw new Exception("dybil na 0 ne dilyat");
@@ -35,15 +35,15 @@ public class Calculator {
         else return a / b;
     }
 
-    public static double mult(double a, double b) {
+    public static Double mult(double a, double b) {
         return a*b;
     }
 
-    public static double minus(double a, double b) {
+    public static Double minus(double a, double b) {
         return a-b;
     }
 
-    public static double add(double a, double b) {
+    public static Double add(double a, double b) {
         return a+b;
     }
 }
